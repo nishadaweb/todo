@@ -38,7 +38,7 @@ function App() {
                 }
                 return obj2
               }))
-            }} value={obj.status} type="checkbox" name="" id="" />
+            }} checked={obj.status} type="checkbox" name="" id="" />
             <p>{obj.text}</p>
           </div>
           <div className="right">
